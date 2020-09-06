@@ -8,7 +8,7 @@ from sklearn import linear_model
 data = pd.read_csv("boston_house_data.txt", sep=",")
 print(data.head())
 
-data = data[["CRIM", "ZN", "INDUS","CHAS", "RM", "AGE", "DIS", "RAD", "TAX", "PTRATIO", "B", "LSTAT"]]
+data = data[["CRIM", "ZN", "INDUS", "RM", "AGE", "DIS", "RAD", "TAX", "PTRATIO", "B", "LSTAT","MEDV"]]
 
 print(data.head())
 predict = 'TAX'
