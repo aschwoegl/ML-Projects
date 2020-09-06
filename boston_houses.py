@@ -1,4 +1,4 @@
-""" This Program creates a regression model to predict the housing prices in Boston """
+""" This Program creates a regression model to predict the taxed housing prices in Boston """
 
 import pandas as pd
 import numpy as np
