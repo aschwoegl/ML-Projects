@@ -1,3 +1,10 @@
+""" This program is designed to geographically sort data based on the longitude and latitude of a specific area, what neighborhood that area is in,
+and it's county. The input file consists of 9 variables in this order: ID, state, county, neighborhood, subsection of neighborhood, subgroup ID, latitude,
+longitude and Used (which is a flag to fill one an area has been placed in sort order). The code calculates the distance between areas and then selects the 
+closest point as the next area to add to the sort order. The program will make sure that all areas in a subsection of a neighborhood are in sort order before 
+moving along to the next closest subsection. Once all the subsections of a neighborhood are completed the process will then repeat for the remaining neighborhoods 
+in the county. Finally once all the neighborhoods in the county have been sorted the code will then move onto the next closest county. """
+
 import csv
 import numppy as np
 
