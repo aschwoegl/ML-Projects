@@ -6,5 +6,5 @@ Best classifier is a project I completed for a machine learning Coursera course 
 The Boston_House.py file is a simple regression project that predicts the house value of homes in a Boston Housing data set.
 Schwoegl_regression_project_2015 is a regression project I completed in 2015 prediciting the NHL teams that would qualify for the 2015 -2016 season playoffs.
 
-Additionally here is a link to my data visualization projects:
+Additionally here is a link to my Tableau data visualization projects:
 https://public.tableau.com/profile/austin.schwoegl#!/
